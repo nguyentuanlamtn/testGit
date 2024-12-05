@@ -30,7 +30,13 @@ namespace WindowsForms
             InitializeComponent();
         }
 
+<<<<<<< HEAD
 
         
+=======
+        bool Temp;
+        bool Form_Load;
+		private bool IsEnMod;
+>>>>>>> 0bd34b4382c126cb2ea73bb68bd98fa07086636a
     }
 }
