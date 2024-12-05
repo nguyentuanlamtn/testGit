@@ -29,6 +29,9 @@ namespace WindowsForms
         {
             InitializeComponent();
         }
-	
+
+ 		bool Temp;
+        bool Form_Load;
+		
     }
 }
