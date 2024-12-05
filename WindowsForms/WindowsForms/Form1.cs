@@ -12,9 +12,24 @@ namespace WindowsForms
 {
     public partial class Form1 : Form
     {
+
+        public static Form1 minstance;
+        public static Form1 Instance
+        {
+            get
+            {
+                if (minstance == null || minstance.IsDisposed)
+                {
+                    minstance = new Form1();
+                }
+                return minstance;
+            }
+        }
         public Form1()
         {
             InitializeComponent();
         }
+
+        
     }
 }
