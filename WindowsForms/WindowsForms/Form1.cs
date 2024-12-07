@@ -31,7 +31,12 @@ namespace WindowsForms
         }
 
  		bool Temp;
-        bool Form_Load;
+<<<<<<< HEAD
+        
 		
+=======
+        bool Form_Load;
+		private bool IsEnMod;
+>>>>>>> 2294533e624304c6c901c6f2d658bdf41d917a18
     }
 }
